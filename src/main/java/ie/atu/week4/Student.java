@@ -1,51 +1,59 @@
 package ie.atu.week4;
 import java.util.Scanner;
 
- public class Student {
+public class Student {
+    // Private fields
     private String name;
     private String email;
     private String course;
 
-   Student(String n, String e, String c)
-   {
-       this.name = n;
-       this.email = e;
-       this.course = c;
-   }
+    // Default constructor (no arguments)
+    public Student() {
+    }
 
-     public String getName()
-     {
-         return name;
-     }
+    // Constructor that accepts only the name parameter
+    public Student(String name) {
+        this.name = name;
+    }
 
-     public String getEmail()
-     {
-         return email;
-     }
+    // Constructor that accepts name, email, and course
+    public Student(String name, String email, String course)
+    {
+        this.name = name;
+        this.email = email;
+        this.course = course;
+    }
 
-     public String getCourse()
-     {
-         return course;
-     }
+    // Getter and Setter for name
+    public String getName()
+    {
+        return name;
+    }
 
-         public void setName(String name)
-         {
-             this.name = name;
-         }
-
-         public void setEmail(String email)
-         {
-             this.email = email;
-         }
-
-         public void setCourse(String course)
-         {
-             this.course = course;
-         }
-
-     Student(String name)
+    public void setName(String name)
     {
         this.name = name;
     }
 
+    // Getter and Setter for email
+    public String getEmail()
+    {
+        return email;
+    }
+
+    public void setEmail(String email)
+    {
+        this.email = email;
+    }
+
+    // Getter and Setter for course
+    public String getCourse()
+    {
+        return course;
+    }
+
+    public void setCourse(String course)
+    {
+        this.course = course;
+    }
 }

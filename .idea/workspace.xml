@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f38c219a-f41f-4027-b411-dd77bbed9717" name="Changes" comment="Added new files and starting project">
+    <list default="true" id="f38c219a-f41f-4027-b411-dd77bbed9717" name="Changes" comment="Created student class">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ie/atu/week4/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ie/atu/week4/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ie/atu/week4/studentApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ie/atu/week4/studentApp.java" afterDir="false" />
@@ -42,6 +42,9 @@
     &quot;accountId&quot;: &quot;290f788a-6077-476d-84f9-8f07dd77cf9e&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -53,8 +56,9 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.studentApp.executor&quot;: &quot;Debug&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;create-student-class&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Implement-studentApp&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -83,6 +87,7 @@
       <workItem from="1728488447251" duration="1989000" />
       <workItem from="1728571754372" duration="3227000" />
       <workItem from="1728739064917" duration="1929000" />
+      <workItem from="1728893901153" duration="348000" />
     </task>
     <task id="LOCAL-00001" summary="Added new files and starting project">
       <option name="closed" value="true" />
